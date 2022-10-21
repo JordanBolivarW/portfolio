@@ -12,157 +12,14 @@ body{
 /* TEMP */
 #gifs{
     height: 200px;
-    width: 250px;
+    width: 200px;
+    margin: 0.1em;
     background: darkgrey;
 }
-/*#NavMenu{   
-    background: #0d0d0d;
-    height: 55px;
-    width: 58%;
-    max-width: 210px;
-    margin: 0;
-    top: 0;
-    left: 0.5em;
-    position: fixed;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 2px solid #7160e8;
-    border-right: 2px solid #7160e8;
-    border-left: 2px solid #7160e8;
-}
-.navIcon{
-    height: 25px;
-}
-#State{
-    background: #0d0d0d;
-
-    height: 9.2%;
-    max-width: 95px;
-    width: 35%;
-    max-width: 200px;
-    overflow: hidden;  
-
-    margin: 0;
-    top: 0;
-    right: 0.5em;
-
-    position: fixed;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom: 2px solid #7160e8;
-    border-right: 2px solid #7160e8;
-    border-left: 2px solid #7160e8;
-}
-#stateConection{
-    width: 80%;
-    height: 20%;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    display: flex;  
-    justify-content: space-evenly;
-    align-items: center;
-}
-#stateMessage{
-    width: 80%;
-    height: 65%;
-    overflow: scroll;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start ;
-}
-#stateMessage p{
-    font-size: 13px;
-    color: rgb(120, 120, 120);
-}
-.bigName{
-    display: flex;
-    padding: 1em;
-    align-content: center;
-    align-items: center;
-    justify-content:space-around;
-}
-#myPhoto{
-    width: 60%;
-    max-width: 150px;
-}
-#myPhoto img{
-    width: 100%;
-}
-#myName{
-    padding-left: 10px;
-}
-#myName h1{
-    font-size: 30px;
-    color: #4abc9c;
-}
-#myName h3{
-    font-size: 17px;
-    color: #3782b7;
-}
-.margin1{
-    width: 60px;
-    height: 75px;
-}
-#ProjectsDis{
-    padding-bottom: 1em;
-}
-.proyect{
-    display: flex;
-    background: gray;
-    height: 300px;
-    align-items: center;
-    justify-content:space-between;
-    margin-bottom: 10px;
-}
-.proyectInfo{
-    display: inline-grid;
-    background: rgba(31, 31, 31, 0.7);
-    height: 100%;
-    width: 180px;
-    grid-auto-flow: row;
-    align-content: space-around;
-    grid-template-columns: 150px;
-    justify-content: space-evenly;
-}
-.info{
-    display: flex;
-    padding: 1.5em;
-    align-items: center;
-    justify-content:space-evenly;
-}
-.skills{
-    display: flex;
-    padding: 1em;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-evenly;
-}
-.bubbleTable{
-    display: grid;
-    margin: 0;
-    justify-content: space-between;
-    grid-gap: 10px;
-    width: 80%;    
-    padding: 20px;
-    padding-top: 2.5em;
-    padding-bottom: 2.5em;
-}
-.AIcon{
-    width: 50px;
-}
-*/
+/* TEMP */
 .center{
     display: flex;
+    flex-wrap: wrap;
     padding: 1em;
     padding-left: 20%;
     padding-right: 20%;
@@ -618,8 +475,8 @@ body{
 }
 .AIcon{
     width: 80%;
-    min-width: 40px;
-    max-width: 60px;
+    min-width: 50px;
+    max-width: 70px;
 }
 }
 @media only screen and (min-width: 1025px){
