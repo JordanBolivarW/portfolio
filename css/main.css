@@ -25,8 +25,8 @@ body{
 }
 .skill_ p{
     font-size: 10px;
+    padding-top: 3px;
 }
-/* TEMP */
 .center{
     display: flex;
     flex-wrap: wrap;
@@ -36,6 +36,42 @@ body{
     align-items: center;
     justify-content:center;
 } 
+.navPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.hideText{
+    display: flex;
+}
+.hideText p{
+    display: none;
+}
+.hideImg{
+    display: flex;
+}
+.hideImg img{
+    display: none;
+}
+.carousel{
+    /*display: flex;
+    height: 210px;
+    margin: 1em;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;*/
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    padding-left: 20%;
+    padding-right: 20%;
+    align-items: center;
+    justify-content:center;
+}
 
 @media only screen and  (min-width: 320px) and (max-width: 540px){
 .center{
@@ -56,7 +92,17 @@ body{
 .Title h1{
     color: #d4cf9b;
     align-items: center;
-}  
+} 
+.navPart p{
+    padding: 6px;
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
+    border: 1.5px solid #55aaff;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #55aaff;
+}
 #NavMenu{   
     background: #0d0d0d;
     height: 55px;
@@ -157,7 +203,10 @@ body{
 }
 #theGif{
     margin: 0 auto;
-    width: 90%;
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
 }
 #theGif img{
     width: 100%;
@@ -288,6 +337,15 @@ body{
 .Title h1{
     font-size: 27px;
     color: #d4cf9b;
+}
+.navPart p{
+    padding: 9px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 2px solid #55aaff;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #55aaff;
 }
 #NavMenu{   
     background: #0d0d0d;
@@ -516,14 +574,24 @@ body{
     font-size: 27px;
     color: #d4cf9b;
 }  
+.navPart p{
+    padding: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2.5px solid #55aaff;
+    border-radius: 8px;
+    font-size: 16.5px;
+    font-weight: bold;
+    color: #55aaff;
+}
 #NavMenu{   
     background: #0d0d0d;
     height: 8%;
     min-height: 70px;
     max-height: 100px;
     width: 20%;
-    max-width: 700px;
-    min-width: 300px;
+    max-width: 800px;
+    min-width: 320px;
     margin: 0;
     top: 0;
     left: 3em;
@@ -539,7 +607,7 @@ body{
     border-left: 2px solid #7160e8;
 }
 .navIcon{
-    height: 45px;
+    height: 43px;
 }
 #State{
     background: #0d0d0d;
