@@ -1,10 +1,4 @@
 const sections = document.querySelectorAll("section");
-/*const sections =[
-    document.querySelector("#Home"),
-    document.querySelector("#Projects"),
-    document.querySelector("#AboutMe"),
-    document.querySelector("#Contact")
-];*/
 
 const homeIcon = document.querySelector("#homeIcon");
 const aboutMeIcon = document.querySelector("#aboutMeIcon");
