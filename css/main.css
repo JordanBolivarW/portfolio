@@ -51,7 +51,7 @@ body{
 .slider{
     display: flex;
     margin: 0 auto;
-    padding: 1em;
+    padding: 0.8em;
     width: 100%;
     max-width: 900px;
     overflow-x: scroll;
@@ -214,6 +214,9 @@ body{
 }
 .poster{
     display: none;
+}
+#projectsDis{
+    padding-top: 2em;
 }
 .proyect{
     display: flex;
@@ -459,6 +462,7 @@ body{
 
 #projectsDis{
     padding-bottom: 3em;
+    padding-top: 2em;
 }
 .poster{
     display: none;
@@ -722,6 +726,45 @@ body{
 #theGif img{
     width: 100%;
 }
+
+/* width */
+.slider::-webkit-scrollbar {
+    height: 15px; 
+  }
+  
+  /* Track */
+  .slider::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05); 
+  }
+   
+  /* Handle */
+  .slider::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.15); 
+  }
+  
+  .slider::-webkit-scrollbar-button:horizontal:start:decrement {
+      background-image: url("../img/chevron_left_FILL1_wght500_GRAD200_opsz20.svg");
+      background-position: center; 
+      background-color: rgba(255, 255, 255, 0.70);
+      background-repeat: no-repeat;
+      width: 40px;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+  .slider::-webkit-scrollbar-button:horizontal:end:increment {
+      background-image: url("../img/chevron_right_FILL1_wght500_GRAD200_opsz20.svg");
+      background-position: center; 
+      background-color: rgba(255, 255, 255, 0.70);
+      background-repeat: no-repeat;
+      width: 40px;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+  
+  /* Handle on hover */
+  .slider::-webkit-scrollbar-thumb:hover {
+      background: rgba(255, 255, 255, 0.70);
+  }
 .poster{
     background: black;
     overflow: hidden;
@@ -733,6 +776,9 @@ body{
 .poster img{
     width:100%;
     height: 100%;
+}
+#projectsDis{
+    padding-top: 2em;
 }
 .proyect{
     display: flex;
