@@ -74,7 +74,12 @@ body{
 }
 
 @media only screen and (min-width: 320px) and (max-width: 540px){
-.center{
+body{
+    overflow-x: hidden;
+    max-width: 540px;
+}
+}
+    .center{
     display: flex;
     padding: 1em;
     align-items: center;
