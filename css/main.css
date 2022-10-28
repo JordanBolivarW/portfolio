@@ -78,8 +78,7 @@ body{
     overflow-x: hidden;
     max-width: 540px;
 }
-}
-    .center{
+.center{
     display: flex;
     padding: 1em;
     align-items: center;
