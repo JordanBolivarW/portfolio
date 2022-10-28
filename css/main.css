@@ -9,13 +9,6 @@ body{
     position:relative;
     background: #1e1e1e;
 }
-/* TEMP */
-#gifs{
-    height: 200px;
-    width: 200px;
-    margin: 0.1em;
-    background: darkgrey;
-}
 .skill_{
     display: flex;
     padding: 0.1em;
@@ -55,22 +48,19 @@ body{
 .hideImg img{
     display: none;
 }
-.carousel{
-    /*display: flex;
-    height: 210px;
-    margin: 1em;
-    margin-left: 20%;
-    margin-right: 20%;
-    align-items: center;
-    justify-content:center;
-    overflow: hidden;*/
+.slider{
     display: flex;
-    flex-wrap: wrap;
+    margin: 0 auto;
     padding: 1em;
-    padding-left: 20%;
-    padding-right: 20%;
-    align-items: center;
-    justify-content:center;
+    width: 100%;
+    max-width: 900px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.slider img{
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 540px){
