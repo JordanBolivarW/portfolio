@@ -9,6 +9,17 @@ body{
     position:relative;
     background: #1e1e1e;
 }
+footer{
+    display: flex;
+    padding: 1.25em;
+    align-items: center;
+    justify-content: left;
+    background: #0d0d0d;
+}
+footer p{
+    color: #6b6b6b;
+    font-size: 12px;
+}
 .skill_{
     display: flex;
     padding: 0.1em;
@@ -65,6 +76,19 @@ body{
 }
 :root {
   color-scheme: dark;
+}
+.info{
+    display: flex;
+    padding: 1.5em;
+    align-items: center;
+    justify-content: center;
+}
+.infoIcon{
+    width: 40px;
+    margin-right: 10px;
+}
+.infoIcon img{
+    width: 100%;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 540px){
@@ -189,7 +213,7 @@ body{
 #myPhoto img{
     width: 100%;
     border-radius: 12px;
-    border: 2px solid #7160e8;
+    border: 2px solid #3782b7;
 }
 #myName{
     padding-left: 10px;
@@ -286,12 +310,6 @@ body{
 }
 .readMoreB p{
     color: #7160e8;
-}
-.info{
-    display: flex;
-    padding: 1.5em;
-    align-items: center;
-    justify-content:space-evenly;
 }
 .skills{
     display: flex;
@@ -440,6 +458,8 @@ body{
 }
 #myPhoto img{
     width: 100%;
+    border-radius: 12px;
+    border: 2px solid #3782b7;
 }
 #myName{
     padding-left: 10px;
@@ -522,12 +542,6 @@ body{
  }
 .video img{
    height: 100%;
-}
-.info{
-    display: flex;
-    padding: 1.5em;
-    align-items: center;
-    justify-content:space-evenly;
 }
 .skills{
     display: flex;
@@ -699,6 +713,8 @@ body{
 }
 #myPhoto img{
     width: 100%;
+    border-radius: 12px;
+    border: 2px solid #3782b7;
 }
 #myName{
     padding-left: 10px;
@@ -869,11 +885,5 @@ body{
     padding-top: 2.5em;
     padding-bottom: 2.5em;
     grid-template-columns: auto auto auto auto auto;
-}
-.info{
-    display: flex;
-    padding: 1.5em;
-    align-items: center;
-    justify-content:space-evenly;
 }
 }
