@@ -65,7 +65,8 @@ footer p{
     margin: 0 auto;
     padding: 0.8em;
     width: 100%;
-    max-width: 900px;
+    height: 500px;
+    max-width: 1000px;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
 }
@@ -73,6 +74,9 @@ footer p{
     width: 100%;
     object-fit: cover;
     scroll-snap-align: center;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 :root {
   color-scheme: dark;
